@@ -1,0 +1,27 @@
+/* Question.css */
+
+.question-container {
+  margin-top: 30px;
+}
+
+.question-text {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background-color: hsl(286, 77%, 51%);
+  color: black;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #e9ecef;
+}
